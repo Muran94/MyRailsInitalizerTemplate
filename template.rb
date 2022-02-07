@@ -78,6 +78,10 @@ gem 'ransack'
 
 
 gem_group :development, :test do
+  ## N+1。クエリパフォーマンス改善。
+  ## https://github.com/flyerhzm/bullet
+  gem 'bullet'
+
   ## Pry
   ## https://github.com/pry/pry-rails
   gem 'pry-rails'
@@ -113,10 +117,6 @@ gem_group :development do
   ## Schema転記
   ## https://github.com/ctran/annotate_models
   gem 'annotate'
-
-  ## N+1。クエリパフォーマンス改善。
-  ## https://github.com/flyerhzm/bullet
-  gem 'bullet'
 end
 
 
