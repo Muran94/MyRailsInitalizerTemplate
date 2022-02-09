@@ -75,7 +75,6 @@ gem 'sidekiq'
 ## https://github.com/activerecord-hackery/ransack
 gem 'ransack'
 
-
 ## Formオブジェクト
 ## https://github.com/rootstrap/yaaf
 gem 'yaaf'
