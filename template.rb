@@ -76,6 +76,11 @@ gem 'sidekiq'
 gem 'ransack'
 
 
+## Formオブジェクト
+## https://github.com/rootstrap/yaaf
+gem 'yaaf'
+
+
 
 gem_group :development, :test do
   ## N+1。クエリパフォーマンス改善。
