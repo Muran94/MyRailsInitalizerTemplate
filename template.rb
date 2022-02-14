@@ -6,7 +6,7 @@ gem 'awesome_print'
 ## https://github.com/aws/aws-sdk-ruby/tree/version-3/gems/aws-sdk-s3
 gem "aws-sdk-s3", "~> 1.14"
 
-## CSS
+## CSSバンドラー
 ## https://github.com/rails/cssbundling-rails
 gem "cssbundling-rails"
 
@@ -35,7 +35,7 @@ gem 'html2haml' # `rake hamlit:erb2haml`を実行したら消す
 ## https://github.com/chocoby/jp_prefecture
 gem 'jp_prefecture'
 
-## Javascript
+## Javascriptバンドラー
 ## https://github.com/rails/jsbundling-rails
 gem "jsbundling-rails"
 
@@ -78,6 +78,10 @@ gem 'shrine', '~> 3.0'
 ## ジョブスケジューラ
 ## https://github.com/mperham/sidekiq
 gem 'sidekiq'
+
+## JavascriptによるUX改善
+## https://github.com/hotwired/turbo-rails
+gem 'turbo-rails'
 
 ## 検索機能
 ## https://github.com/activerecord-hackery/ransack
