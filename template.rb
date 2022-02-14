@@ -6,6 +6,10 @@ gem 'awesome_print'
 ## https://github.com/aws/aws-sdk-ruby/tree/version-3/gems/aws-sdk-s3
 gem "aws-sdk-s3", "~> 1.14"
 
+# CSS
+## https://github.com/rails/cssbundling-rails
+gem "cssbundling-rails"
+
 ## 認証
 ## https://github.com/heartcombo/devise
 gem 'devise'
@@ -30,6 +34,10 @@ gem 'html2haml' # `rake hamlit:erb2haml`を実行したら消す
 ## 都道府県
 ## https://github.com/chocoby/jp_prefecture
 gem 'jp_prefecture'
+
+## Javascript
+## https://github.com/rails/jsbundling-rails
+gem "jsbundling-rails"
 
 ## 認可
 ## https://github.com/varvet/pundit
@@ -74,10 +82,6 @@ gem 'sidekiq'
 ## 検索機能
 ## https://github.com/activerecord-hackery/ransack
 gem 'ransack'
-
-## Formオブジェクト
-## https://github.com/rootstrap/yaaf
-gem 'yaaf'
 
 
 
