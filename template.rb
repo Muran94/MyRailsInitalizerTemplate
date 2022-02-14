@@ -6,7 +6,7 @@ gem 'awesome_print'
 ## https://github.com/aws/aws-sdk-ruby/tree/version-3/gems/aws-sdk-s3
 gem "aws-sdk-s3", "~> 1.14"
 
-# CSS
+## CSS
 ## https://github.com/rails/cssbundling-rails
 gem "cssbundling-rails"
 
