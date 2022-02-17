@@ -14,8 +14,13 @@ gem "cssbundling-rails"
 ## https://github.com/heartcombo/devise
 gem 'devise'
 
+## Devise翻訳
+## https://github.com/tigrish/devise-i18n
+## ja.yml => https://github.com/tigrish/devise-i18n/blob/master/rails/locales/ja.yml
+gem 'devise-i18n'
+
 ## 論理削除
-https://github.com/jhawthorn/discard
+## https://github.com/jhawthorn/discard
 gem 'discard'
 
 ## デコレーター
@@ -46,6 +51,11 @@ gem "jsbundling-rails"
 ## 認可
 ## https://github.com/varvet/pundit
 gem 'pundit'
+
+## 翻訳
+## https://github.com/svenfuchs/rails-i18n
+## ja.yml => https://github.com/svenfuchs/rails-i18n/blob/master/rails/locale/ja.yml
+gem 'rails-i18n', '~> 7.0.0'
 
 ## Ruby用Lintツール
 ## https://github.com/rubocop/rubocop-rails/
