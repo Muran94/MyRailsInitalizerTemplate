@@ -14,6 +14,10 @@ gem "cssbundling-rails"
 ## https://github.com/heartcombo/devise
 gem 'devise'
 
+## 論理削除
+https://github.com/jhawthorn/discard
+gem 'discard'
+
 ## デコレーター
 ## https://github.com/drapergem/draper
 gem 'draper'
