@@ -143,6 +143,10 @@ gem_group :development, :test do
   ## ダミーデータ
   ## https://github.com/faker-ruby/faker
   gem 'faker'
+  
+  ## ダミーデータ
+  ## https://github.com/willnet/gimei
+  # gem 'gimei'
 end
 
 
