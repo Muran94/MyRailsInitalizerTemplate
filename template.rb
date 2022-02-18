@@ -1,6 +1,10 @@
+## attr_accessors改良版
+## https://github.com/cgriego/active_attr
+# gem 'active_attr'
+
 ## STDOUT整形
 ## https://github.com/awesome-print/awesome_print
-gem 'awesome_print'
+# gem 'awesome_print'
 
 ## S3
 ## https://github.com/aws/aws-sdk-ruby/tree/version-3/gems/aws-sdk-s3
@@ -21,7 +25,7 @@ gem 'devise-i18n'
 
 ## 論理削除
 ## https://github.com/jhawthorn/discard
-gem 'discard'
+# gem 'discard'
 
 ## デコレーター
 ## https://github.com/drapergem/draper
@@ -42,7 +46,7 @@ gem 'html2haml' # `rake hamlit:erb2haml`を実行したら消す
 
 ## 都道府県
 ## https://github.com/chocoby/jp_prefecture
-gem 'jp_prefecture'
+# gem 'jp_prefecture'
 
 ## Javascriptバンドラー
 ## https://github.com/rails/jsbundling-rails
@@ -67,7 +71,7 @@ gem 'seedbank'
 
 ## パンクズリスト
 ## https://github.com/lassebunk/gretel
-gem 'gretel'
+# gem 'gretel'
 
 ## 画像加工
 ## https://github.com/janko/image_processing
@@ -75,7 +79,7 @@ gem "image_processing", "~> 1.0"
 
 ## アクセス解析用
 ## https://github.com/charlotte-ruby/impressionist
-gem 'impressionist'
+# gem 'impressionist'
 
 ## ページネーション
 ## https://github.com/kaminari/kaminari
@@ -83,7 +87,7 @@ gem 'kaminari'
 
 ## 通知機能
 ## https://github.com/excid3/noticed
-gem 'noticed'
+# gem 'noticed'
 
 ## ストレージ
 ## https://github.com/shrinerb/shrine
@@ -99,7 +103,7 @@ gem 'turbo-rails'
 
 ## 検索機能
 ## https://github.com/activerecord-hackery/ransack
-gem 'ransack'
+# gem 'ransack'
 
 
 
