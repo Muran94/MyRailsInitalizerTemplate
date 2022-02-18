@@ -2,6 +2,10 @@
 ## https://github.com/cgriego/active_attr
 # gem 'active_attr'
 
+## データ一括インポート
+## https://github.com/zdennis/activerecord-import
+gem 'activerecord-import'
+
 ## STDOUT整形
 ## https://github.com/awesome-print/awesome_print
 # gem 'awesome_print'
