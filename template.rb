@@ -101,6 +101,10 @@ gem 'shrine', '~> 3.0'
 ## https://github.com/mperham/sidekiq
 gem 'sidekiq'
 
+## 決済API
+## https://github.com/stripe/stripe-ruby
+gem 'stripe'
+
 ## JavascriptによるUX改善
 ## https://github.com/hotwired/turbo-rails
 gem 'turbo-rails'
