@@ -39,6 +39,10 @@ gem 'draper'
 ## https://github.com/zmbacker/enum_help
 gem 'enum_help'
 
+## ライフサイクルシステム管理ツール
+## https://github.com/ddollar/foreman
+# gem 'foreman'
+
 ## 定数管理
 ## https://github.com/railsware/global
 gem 'global'
