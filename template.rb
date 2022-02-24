@@ -114,10 +114,6 @@ gem 'sidekiq'
 ## https://github.com/stripe/stripe-ruby
 gem 'stripe'
 
-## URL アンスコ => ハイフン
-## https://github.com/hired/the_hyphenator
-gem 'the_hyphenator'
-
 ## JavascriptによるUX改善
 ## https://github.com/hotwired/turbo-rails
 gem 'turbo-rails'
