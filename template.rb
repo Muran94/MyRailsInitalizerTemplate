@@ -128,7 +128,7 @@ gem_group :development, :test do
   ## N+1。クエリパフォーマンス改善。
   ## https://github.com/flyerhzm/bullet
   gem 'bullet'
-  
+
   ## RSpec テストデータ
   ## https://github.com/thoughtbot/factory_bot
   gem "factory_bot_rails"
@@ -136,7 +136,7 @@ gem_group :development, :test do
   ## ダミーデータ
   ## https://github.com/faker-ruby/faker
   gem 'faker'
-  
+
   ## ダミーデータ
   ## https://github.com/willnet/gimei
   # gem 'gimei'
