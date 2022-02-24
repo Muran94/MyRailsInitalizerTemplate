@@ -77,6 +77,10 @@ gem 'rubocop-rails', require: false
 ## https://github.com/james2m/seedbank
 gem 'seedbank'
 
+## URL アンスコ => ハイフン
+## https://github.com/hired/the_hyphenator
+gem 'the_hyphenator'
+
 ## パンクズリスト
 ## https://github.com/lassebunk/gretel
 # gem 'gretel'
