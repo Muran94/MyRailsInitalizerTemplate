@@ -6,6 +6,10 @@
 ## https://github.com/zdennis/activerecord-import
 gem 'activerecord-import'
 
+## APIドキュメント生成
+## https://github.com/Apipie/apipie-rails
+# gem 'apipie-rails'
+
 ## STDOUT整形
 ## https://github.com/awesome-print/awesome_print
 # gem 'awesome_print'
@@ -47,10 +51,23 @@ gem 'enum_help'
 ## https://github.com/railsware/global
 gem 'global'
 
-## テンプレートエンジン
+## パンクズリスト
+## https://github.com/lassebunk/gretel
+# gem 'gretel'
+
+## テンプレートエンジン & コンバート
 ## https://github.com/mfung/hamlit-rails
+## https://github.com/haml/html2haml
 gem 'hamlit-rails'
-gem 'html2haml' # rails hamlit:erb2haml を実行するのに必要
+gem 'html2haml'
+
+## 画像加工
+## https://github.com/janko/image_processing
+gem "image_processing", "~> 1.0"
+
+## アクセス解析用
+## https://github.com/charlotte-ruby/impressionist
+# gem 'impressionist'
 
 ## 都道府県
 ## https://github.com/chocoby/jp_prefecture
@@ -59,6 +76,14 @@ gem 'html2haml' # rails hamlit:erb2haml を実行するのに必要
 ## Javascriptバンドラー
 ## https://github.com/rails/jsbundling-rails
 gem "jsbundling-rails"
+
+## ページネーション
+## https://github.com/kaminari/kaminari
+gem 'kaminari'
+
+## 通知機能
+## https://github.com/excid3/noticed
+# gem 'noticed'
 
 ## 認可
 ## https://github.com/varvet/pundit
@@ -77,30 +102,6 @@ gem 'rubocop-rails', require: false
 ## https://github.com/james2m/seedbank
 gem 'seedbank'
 
-## URL アンスコ => ハイフン
-## https://github.com/hired/the_hyphenator
-gem 'the_hyphenator'
-
-## パンクズリスト
-## https://github.com/lassebunk/gretel
-# gem 'gretel'
-
-## 画像加工
-## https://github.com/janko/image_processing
-gem "image_processing", "~> 1.0"
-
-## アクセス解析用
-## https://github.com/charlotte-ruby/impressionist
-# gem 'impressionist'
-
-## ページネーション
-## https://github.com/kaminari/kaminari
-gem 'kaminari'
-
-## 通知機能
-## https://github.com/excid3/noticed
-# gem 'noticed'
-
 ## ストレージ
 ## https://github.com/shrinerb/shrine
 gem 'shrine', '~> 3.0'
@@ -112,6 +113,10 @@ gem 'sidekiq'
 ## 決済API
 ## https://github.com/stripe/stripe-ruby
 gem 'stripe'
+
+## URL アンスコ => ハイフン
+## https://github.com/hired/the_hyphenator
+gem 'the_hyphenator'
 
 ## JavascriptによるUX改善
 ## https://github.com/hotwired/turbo-rails
@@ -127,6 +132,18 @@ gem_group :development, :test do
   ## N+1。クエリパフォーマンス改善。
   ## https://github.com/flyerhzm/bullet
   gem 'bullet'
+  
+  ## RSpec テストデータ
+  ## https://github.com/thoughtbot/factory_bot
+  gem "factory_bot_rails"
+
+  ## ダミーデータ
+  ## https://github.com/faker-ruby/faker
+  gem 'faker'
+  
+  ## ダミーデータ
+  ## https://github.com/willnet/gimei
+  # gem 'gimei'
 
   ## Pry
   ## https://github.com/pry/pry-rails
@@ -147,18 +164,6 @@ gem_group :development, :test do
   ## RSpec マッチャ拡張
   ## https://github.com/thoughtbot/shoulda-matchers
   gem 'shoulda-matchers', '~> 5.0'
-
-  ## RSpec テストデータ
-  ## https://github.com/thoughtbot/factory_bot
-  gem "factory_bot_rails"
-
-  ## ダミーデータ
-  ## https://github.com/faker-ruby/faker
-  gem 'faker'
-  
-  ## ダミーデータ
-  ## https://github.com/willnet/gimei
-  # gem 'gimei'
 end
 
 
