@@ -50,7 +50,7 @@ gem 'global'
 ## テンプレートエンジン
 ## https://github.com/mfung/hamlit-rails
 gem 'hamlit-rails'
-gem 'html2haml' # `rake hamlit:erb2haml`を実行したら消す
+gem 'html2haml' # rails hamlit:erb2haml を実行するのに必要
 
 ## 都道府県
 ## https://github.com/chocoby/jp_prefecture
