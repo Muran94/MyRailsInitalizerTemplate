@@ -110,6 +110,10 @@ gem 'shrine', '~> 3.0'
 ## https://github.com/mperham/sidekiq
 gem 'sidekiq'
 
+## A/Bテスト
+## https://github.com/splitrb/split
+# gem 'split', require: 'split/dashboard'
+
 ## 決済API
 ## https://github.com/stripe/stripe-ruby
 gem 'stripe'
