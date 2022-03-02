@@ -180,4 +180,8 @@ gem_group :test do
   ## テストカバレッジ計測
   ## https://github.com/simplecov-ruby/simplecov
   gem 'simplecov', require: false
+  
+  ## RSpecのスペックファイルからAPI Blueprintを出力してくれる
+  ## https://github.com/calderalabs/rspec_api_blueprint
+  # gem 'rspec_api_blueprint', require: false
 end
