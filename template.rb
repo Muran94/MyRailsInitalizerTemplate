@@ -31,6 +31,10 @@ gem 'devise'
 ## ja.yml => https://github.com/tigrish/devise-i18n/blob/master/rails/locales/ja.yml
 gem 'devise-i18n'
 
+## トークンを用いた認証ライブラリ
+## https://github.com/lynndylanhurley/devise_token_auth
+gem 'devise_token_auth'
+
 ## 論理削除
 ## https://github.com/jhawthorn/discard
 # gem 'discard'
@@ -88,6 +92,10 @@ gem 'kaminari'
 ## 認可
 ## https://github.com/varvet/pundit
 gem 'pundit'
+
+## オリジンを超えたリクエスト/レスポンスを可能にする
+## https://github.com/cyu/rack-cors
+gem 'rack-cors'
 
 ## 翻訳
 ## https://github.com/svenfuchs/rails-i18n
@@ -180,8 +188,4 @@ gem_group :test do
   ## テストカバレッジ計測
   ## https://github.com/simplecov-ruby/simplecov
   gem 'simplecov', require: false
-  
-  ## RSpecのスペックファイルからAPI Blueprintを出力してくれる
-  ## https://github.com/calderalabs/rspec_api_blueprint
-  # gem 'rspec_api_blueprint', require: false
 end
