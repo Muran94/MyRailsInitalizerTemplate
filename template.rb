@@ -183,7 +183,7 @@ gem_group :development do
   
   ## ER図自動生成ツール（graphvizパッケージに依存）
   ## https://github.com/voormedia/rails-erd
-  gem 'rails-erd'
+  # gem 'rails-erd'
 end
 
 
