@@ -180,6 +180,10 @@ gem_group :development do
   ## Schema転記
   ## https://github.com/ctran/annotate_models
   gem 'annotate'
+  
+  ## ER図自動生成ツール（graphvizパッケージに依存）
+  ## https://github.com/voormedia/rails-erd
+  gem 'rails-erd'
 end
 
 
