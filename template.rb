@@ -33,7 +33,7 @@ gem 'devise-i18n'
 
 ## トークンを用いた認証ライブラリ
 ## https://github.com/lynndylanhurley/devise_token_auth
-gem 'devise_token_auth'
+# gem 'devise_token_auth'
 
 ## 論理削除
 ## https://github.com/jhawthorn/discard
