@@ -55,6 +55,10 @@ gem 'enum_help'
 ## https://github.com/railsware/global
 gem 'global'
 
+## JS × Rails変数連携
+# https://github.com/gazay/gon
+gem 'gon'
+
 ## パンクズリスト
 ## https://github.com/lassebunk/gretel
 # gem 'gretel'
