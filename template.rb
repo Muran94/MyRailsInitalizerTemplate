@@ -142,10 +142,6 @@ gem 'stripe'
 ## https://github.com/hotwired/turbo-rails
 gem 'turbo-rails'
 
-## 検索機能
-## https://github.com/activerecord-hackery/ransack
-# gem 'ransack'
-
 
 
 gem_group :development, :test do
