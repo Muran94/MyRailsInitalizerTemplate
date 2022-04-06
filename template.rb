@@ -108,11 +108,11 @@ gem 'rails-i18n', '~> 7.0.0'
 
 ## 検索
 ## https://github.com/activerecord-hackery/ransack
-gem 'ransack'
+# gem 'ransack'
 
 ## Ransack enum対応
 ## https://github.com/shoma07/ransack-enum
-gem 'ransack-enum', '~> 1.0'
+# gem 'ransack-enum', '~> 1.0'
 
 ## Ruby用Lintツール
 ## https://github.com/rubocop/rubocop-rails/
