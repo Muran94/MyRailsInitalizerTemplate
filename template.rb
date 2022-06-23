@@ -142,6 +142,11 @@ gem 'stripe'
 ## https://github.com/hotwired/turbo-rails
 gem 'turbo-rails'
 
+## コントローラー・モデルをスリムに保つのに使えるgem。
+gem "trailblazer"
+gem "trailblazer-rails"
+gem "trailblazer-cells"
+
 
 
 gem_group :development, :test do
