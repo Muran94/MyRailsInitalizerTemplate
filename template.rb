@@ -181,10 +181,6 @@ gem_group :development, :test do
   ## RSpec テストフレームワーク
   ## https://github.com/rspec/rspec-metagem
   gem 'rspec-rails'
-
-  ## RSpec マッチャ拡張
-  ## https://github.com/thoughtbot/shoulda-matchers
-  gem 'shoulda-matchers', '~> 5.0'
 end
 
 
@@ -205,4 +201,12 @@ gem_group :test do
   ## テストカバレッジ計測
   ## https://github.com/simplecov-ruby/simplecov
   gem 'simplecov', require: false
+  
+  ## RSpec マッチャ拡張
+  ## https://github.com/thoughtbot/shoulda-matchers
+  gem 'shoulda-matchers', '~> 5.0'
+  
+  ## RSpecの記述をよりDRYにできる
+  ## https://github.com/tomykaira/rspec-parameterized
+  gem 'rspec-parameterized'
 end
