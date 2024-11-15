@@ -85,13 +85,13 @@ gem "image_processing", "~> 1.0"
 ## https://github.com/rails/jsbundling-rails
 gem "jsbundling-rails"
 
-## ページネーション
-## https://github.com/kaminari/kaminari
-gem 'kaminari'
-
 ## 通知機能
 ## https://github.com/excid3/noticed
 # gem 'noticed'
+
+## ページネーション
+## https://github.com/ddnexus/pagy
+# gem 'pagy'
 
 ## 認可
 ## https://github.com/varvet/pundit
