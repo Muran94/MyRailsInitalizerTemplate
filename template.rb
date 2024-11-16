@@ -122,7 +122,7 @@ gem 'rubocop-rails', require: false
 ## https://github.com/james2m/seedbank
 gem 'seedbank'
 
-## ストレージ
+## ファイルアップローダー
 ## https://github.com/shrinerb/shrine
 gem 'shrine', '~> 3.0'
 
