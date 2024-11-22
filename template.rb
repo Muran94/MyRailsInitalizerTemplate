@@ -56,8 +56,8 @@ gem 'enum_help'
 gem 'global'
 
 ## JS × Rails変数連携
-# https://github.com/gazay/gon
-gem 'gon'
+## https://github.com/gazay/gon
+# gem 'gon'
 
 ## パンクズリスト
 ## https://github.com/lassebunk/gretel
@@ -138,16 +138,13 @@ gem 'sidekiq'
 ## https://github.com/stripe/stripe-ruby
 gem 'stripe'
 
+## PDF生成
+## https://github.com/thinreports/thinreports-generator
+# gem 'thinreports'
+
 ## JavascriptによるUX改善
 ## https://github.com/hotwired/turbo-rails
 gem 'turbo-rails'
-
-## コントローラー・モデルをスリムに保つのに使えるgem。
-gem "trailblazer"
-gem "trailblazer-rails"
-gem "trailblazer-cells"
-
-
 
 gem_group :development, :test do
   ## N+1。クエリパフォーマンス改善。
@@ -183,8 +180,6 @@ gem_group :development, :test do
   gem 'rspec-rails'
 end
 
-
-
 gem_group :development do
   ## Schema転記
   ## https://github.com/ctran/annotate_models
@@ -194,8 +189,6 @@ gem_group :development do
   ## https://github.com/voormedia/rails-erd
   # gem 'rails-erd'
 end
-
-
 
 gem_group :test do
   ## テストカバレッジ計測
